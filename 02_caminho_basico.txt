@@ -23,7 +23,7 @@ OBS: só vamos usar versões em ultimo caso, costuma dar muito problema, utiliza
 *comandos basicos de branch*
 1> git branch *//(para saber quais branch existem)
 2> git branch <nomedabranch> *//(para add uma nova branch)
-3> git checkoit <nomedabranch> *//(para poder transitar de branch e trabalhar na desejada)
+3> git checkout <nomedabranch> *//(para poder transitar de branch e trabalhar na desejada)
 
 *Caminho exemplo para trabalhar com mais de uma branch e efetuar merge*
 1> de um git pull na branch principal para ter certeza que esta na ultima versão.
