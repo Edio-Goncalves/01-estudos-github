@@ -1,0 +1,50 @@
+*Iniciando um repositorio*
+1> Criar repositorio no site do github parapodermos vincular os arquivos ao servidor.
+2> git init //(iniciar um novo repositorio)
+3> git status //(verificar status atual dos arquivos)
+4> git add . //(adicionar todos arquivos para a proxima commit)
+5> git commit -m "mensagem git inicial" //(criar commit com mensagem)
+6> git remote add <nome> <linkRepositorio> //(linkando o local com o remoto)
+7> git push --set-upstream <nome> <nomeBranchPrincipal> //(Enviando os arquivos pela primeira vez)
+
+*Adicionando modificações*
+depois de ter criado novas funcionalidades e testado vamos seguir os passos:
+1> git status //(verificar status atual dos arquivos)
+2> git add . //(adicionar todos arquivos para a proxima commit)
+3> git commit -m "commit da modificação/adição"
+4> git push //(para enviar os arquivos)
+
+*Para recuperar versão*
+1> git reflog *//(para verificar as versões. A versão mais atual vai ser a do topo)
+2> git reset --hard <numeroVersão> *//(serve para transitar entre as versões no passado no futuro)
+OBS: só vamos usar versões em ultimo caso, costuma dar muito problema, utilizamos basicamente para corrigir um erro de atualização de arquivos e voltar para a versão anterior e nada mais.
+
+*BRANCH & MERGE*
+*comandos basicos de branch*
+1> git branch *//(para saber quais branch existem)
+2> git branch <nomedabranch> *//(para add uma nova branch)
+3> git checkoit <nomedabranch> *//(para poder transitar de branch e trabalhar na desejada)
+
+*Caminho exemplo para trabalhar com mais de uma branch e efetuar merge*
+1> de um git pull na branch principal para ter certeza que esta na ultima versão.
+	git pull
+2> gerar uma nova branch a partir da branch principal
+	git branch <nomedabranch>
+3> verifique se as brench existentes para ver se ela foi criada
+	git branch
+4> mude para a branch temporaria para efetuar os trabalhos
+	git checkout <nomedabranch>
+5> trabalhe e adicione novas funcionalidades na brench temporaria e depois de testado jogue os arquivos na branch
+	git add .
+	git commit -m "comentario do trabalho"
+	git push
+6> vá para a git principal
+	git checkout <nomedabranch>
+7> de um novo git pull para verificar se esta na ultima versão
+	git pull
+8> combite os arquivos da branch temporaria com a branch principal
+	git merge <nomedabranchTEMPORARIA>
+9> jogue na nuvem
+	git push
+
+

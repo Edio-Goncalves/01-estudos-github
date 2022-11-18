@@ -1,0 +1,14 @@
+*Para não versionar arquivos especificos quando der o git add .*
+
+1> touch .gitignore //(para criar um arquivo de texto dentro da pasta que vamos colocar as exceções)
+
+2> entrar no arquivo txt criado pelo comando "touch .gitignore" e adicionar o nome e extensão do arquivo.
+
+3> git add .
+
+4> git commit -m "comentario"
+
+5> git push
+
+// Vemos que os arquivos adicioanados no .gitignore nao estao no repositorio.
+
