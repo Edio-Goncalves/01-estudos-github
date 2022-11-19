@@ -21,5 +21,14 @@ Funlionalidades básicas
 * `git reflog` //para verificar as versões, sendo a versão mais atual vai ser a do topo
 * `git reset --hard <numeroVersão>` //serve para ir a uma versão no passado ou futuro
 
-## VIDEO BASE DO ESTUDO
-https://www.youtube.com/watch?v=kB5e-gTAl_s
+## MUDAR DE REPOSITORIO
+* `git remote -v` //para identificar as urls remotas do diretorio
+* `git remote remove origin` //vai remover as urls no origin
+* `git remote remove add origin` //vai vincular o diretório ao link do novo repositório
+* `git branch --set-upstream-to=origin/<branch> master` //caso precise dar um 'git pull' para pegar os arquivos do novo link
+* `git push --set-upstream origin master` //caso o repositório esteja vazio e precisamos criar a master para enviar os arquivos
+
+
+## FONTES
+* https://www.youtube.com/watch?v=kB5e-gTAl_s (comandos básicos)
+* https://www.youtube.com/watch?v=NXJjNk7aHrI (mudar de repositório)
