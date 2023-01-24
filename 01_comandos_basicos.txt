@@ -13,6 +13,7 @@ git checkout -b <nomeDaNovaBranch> <nomeDaBranchExistente> //(Para criar uma nov
 git merge <nomeBranchTEMPORARIA> //(permite fazer o merge da branch ativa atualmente com os arquivos da temporaria)
 git push origin --delete <nomeDaBranch> //(Para deletar uma branch remota (no github))
 git branch -d <nomeDaBranch> //(para deletar uma branch local)
+git pull origin <nomeDaBranch> --allow-unrelated-histories //(para quando tiver problema de histórico)
 
 //COMANDOS VERSÕES//
 git reflog *//(para verificar as versões. A versão mais atual vai ser a do topo)
