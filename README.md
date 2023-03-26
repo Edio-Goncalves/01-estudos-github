@@ -19,6 +19,8 @@
 - `git merge <nomeBranchTEMPORARIA>` //permite fazer o merge da branch ativa atualmente com os arquivos da temporária
 - `git push origin --delete <nomeDaBranch>` //para deletar uma branch remota (no github)
 - `git branch -d <nomeDaBranch>` //para deletar uma branch local
+- `git pull origin <nomeDaBranch>` //para buscar os arquivos de determinada branch
+-  `git pull --rebase origin` //para forçar a busca de arquivos de determinada branch
 
 ##
 
