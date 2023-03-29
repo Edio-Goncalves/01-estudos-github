@@ -20,7 +20,8 @@
 - `git push origin --delete <nomeDaBranch>` //para deletar uma branch remota (no github)
 - `git branch -d <nomeDaBranch>` //para deletar uma branch local
 - `git pull origin <nomeDaBranch>` //para buscar os arquivos de determinada branch
--  `git pull --rebase origin` //para forçar a busca de arquivos de determinada branch
+- `git pull --rebase origin` //para forçar a busca de arquivos de determinada branch
+- `git pull origin main --allow-unrelated-histories`  // para resolver fatal: refusing to merge unrelated histories
 
 ##
 
