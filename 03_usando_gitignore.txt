@@ -11,5 +11,3 @@
 5> git push
 
 // Vemos que os arquivos adicioanados no .gitignore nao estao no repositorio.
-
-servidor

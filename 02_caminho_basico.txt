@@ -46,6 +46,3 @@ OBS: só vamos usar versões em ultimo caso, costuma dar muito problema, utiliza
 	git merge <nomedabranchTEMPORARIA>
 9> jogue na nuvem
 	git push
-
-
-servidor
