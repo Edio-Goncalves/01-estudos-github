@@ -21,3 +21,5 @@ git reset --hard <numeroVersão> *//(serve para ir a uma versão no passado ou f
 
 //VIDEO BASE DO ESTUDO
 https://www.youtube.com/watch?v=kB5e-gTAl_s
+
+servidor
